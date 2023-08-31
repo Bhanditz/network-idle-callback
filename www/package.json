@@ -14,8 +14,9 @@
     "npm-run-all": "^4.1.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1",
-    "unsplash-source-js": "^1.0.0"
+    "react-scripts": "2.0.0",
+    "unsplash-source-js": "^1.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "test": "react-scripts test --env=jsdom",
@@ -27,9 +28,12 @@
     "start-js": "react-scripts start",
     "build-js": "react-scripts build",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
-  }
+  },
+  "snyk": true
 }
