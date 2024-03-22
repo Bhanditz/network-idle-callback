@@ -7,14 +7,14 @@
     "classnames": "^2.2.5",
     "debounce": "^1.1.0",
     "network-idle-callback": "1.0.1",
-    "node-sass": "^4.7.2",
-    "node-sass-chokidar": "^1.1.0",
+    "node-sass": "^5.0.0",
+    "node-sass-chokidar": "^2.0.0",
     "normalize.css": "^8.0.0",
     "normalize.scss": "^0.1.0",
     "npm-run-all": "^4.1.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1",
+    "react-scripts": "5.0.0",
     "unsplash-source-js": "^1.0.0"
   },
   "scripts": {
